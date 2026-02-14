@@ -169,6 +169,6 @@ Este miniORM é uma **demonstração educativa** das técnicas de Java aplicadas
 - Generics  
 - CRUD seguro com conexão ao banco
 
-> É uma base sólida para aprendizado e expansão futura.
+> É uma base para aprendizado 
 
 
