@@ -87,7 +87,7 @@ public class Main {
                 pessoas.forEach(System.out::println);
 
                 System.out.print("ID da pessoa: ");
-                Long id = Long.parseLong(scanner.nextLine());
+                int id = Integer.parseInt(scanner.nextLine());
 
                 Pessoa pessoa = pessoas.stream()
                         .filter(p -> p.getId().equals(id))
