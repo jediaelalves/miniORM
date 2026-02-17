@@ -6,6 +6,8 @@ import java.lang.annotation.*;
 @Target(ElementType.FIELD)
 public @interface Column {
 
+    String name() default ""; // 🔥 ESSENCIAL para mapear coluna diferente do atributo
+
     int length() default 255;
     boolean nullable() default true;
 }

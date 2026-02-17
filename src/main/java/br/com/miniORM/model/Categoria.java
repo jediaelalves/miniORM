@@ -6,8 +6,8 @@ import java.time.LocalDateTime;
 
 
 
-@Table(name = "pautas")
-public class Pauta {
+@Table(name = "categorias")
+public class Categoria {
 
     @Id
     private Integer id;
@@ -16,9 +16,9 @@ public class Pauta {
 
 	private LocalDateTime dataHora;
 
-    public Pauta(){}
+    public Categoria(){}
 
-    public Pauta(String descricao, LocalDateTime dataHora){
+    public Categoria(String descricao, LocalDateTime dataHora){
         this.descricao = descricao;
         this.dataHora = dataHora;
     }
@@ -52,7 +52,8 @@ public class Pauta {
 
 	@Override
 	public String toString() {
-		return "Pauta [id=" + id + ", dataHora=" + dataHora + ", descricao=" + descricao + "]";
+		return "Categoria [id=" + id + ", dataHora=" + dataHora + ", descricao=" + descricao + "]";
 	}
+
  
 }
